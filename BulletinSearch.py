@@ -80,7 +80,7 @@ class BulletinSearch(QMainWindow):
 
     def goLink(self, event):
         chrome_path = 'C:/Program Files/Google/Chrome/Application/chrome.exe %s'
-        webbrowser.get(chrome_path).open('https://github.com/Ezentere')
+        webbrowser.get(chrome_path).open('https://github.com/Gurkankaradag0')
             
     def CreateMessageBox(self, message, title="UYARI", buttons=(QMessageBox.Ok | QMessageBox.Cancel)):
         msg = QMessageBox()
@@ -141,17 +141,9 @@ class BulletinSearch(QMainWindow):
                     searchList.append((item,))
 
                     results = conn.querys("SELECT * FROM TRADEMARK WHERE NAME LIKE ?", (item,))
-                    # print(f"'{old_item}' kelimesi aranıyor...")
-                    # self.ui.pte_results.appendPlainText(f"'{old_item}' kelimesi aranıyor...")
-                    # print(f"{len(results)} adet '{old_item}' kelimesine rastlandı;")
                     self.ui.pte_results.appendPlainText(f"{len(results)} adet '{old_item}' kelimesine rastlandı...")
                     for i, result in enumerate(results):
-                        # print(f"{i+1}) {result[0]} - {result[5]}")
-                        # self.ui.pte_results.appendPlainText(f"{i+1}) {result[0]} - {result[5]}")
                         self.data.append([old_item,result[0],result[5]])
-                    # print("-----------------------------------------------------")
-                    # self.ui.pte_results.appendPlainText("-----------------------------------------------------")
-                    
             else:
                 self.CreateMessageBox("HSQLDB driver bulunamadı.", title="Hata", buttons=QMessageBox.Ok)
 
