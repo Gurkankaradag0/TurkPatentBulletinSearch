@@ -1,0 +1,13 @@
+1. Türk Patent ve Marka Kurumu Resmi Marka Bülteni uygulamasýný bilgisayarýnýzda istediðiniz dizine kaydedip çalýþtýrabilirsiniz.
+
+2. Uygulamayý çalýþtýrabilmek için, web sitemizden indirdiðiniz ".zip" veya ".rar" uzantýlý dosyayý üzerine sað 
+   týklayarak "buraya çýkart" seçeneðine týklamanýz gerekmektedir. Dýþarýya bülten numarasýyla ayný isimde bir 
+   klasör çýkacaktýr. Sonrasýnda klasör içerisindeki start.bat (veya start olarak da görünüyor olabilir bazý 
+   bilgisayarlarda) dosyasýna çift týklamanýz gerekmektedir.
+
+3. Bu uygulamanýn bilgisayarýnýzda çalýþabilmesi için, bilgisayarýnýzda java kurulmuþ olmasý gerekmektedir.
+   Eðer yüklenmiþ herhangi bir java sürümünüz yok ise, https://java.com/tr/download/ adresinden yükleyebilirsiniz. 
+
+4. Bu uygulamada yalnýzca 5. Madde Kararlarý uyarýnca Kýsmen yada Tam Yayýnlanan markalar yer almaktadýr. 
+   Baþvuru sonrasý iþlemlere iliþkin þerhler ve Resmi Marka Bülteninde ilan edilen diðer iþlemler için pdf 
+   dosyasýný kontrol ediniz.
